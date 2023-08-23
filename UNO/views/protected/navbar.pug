@@ -1,0 +1,21 @@
+
+nav.navbar.navbar-expand-md.navbar-dark.bg-dark
+      div.container-fluid
+        a.navbar-brand(href="/" type="button") uno
+        if username
+          ul.navbar-nav.mr-auto
+            li.nav-item.dropdown 
+              a.nav-link.dropdown-toggle(href="#", type="button", id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false") #{username}
+              ul.dropdown-menu(aria-labelledby="userDropdown")
+                li.nav-item
+                  a.dropdown-item(href="/auth/logout" type="button") Logout
+        else
+          ul.navbar-nav.mr-auto
+            li.nav-item
+              a.nav-link(href="/auth/login", type="button") Login
+            li.nav-item
+              a.nav-link(href="/auth/signup", type="button") Register
+            //-li.nav-item
+            //-  a.nav-link(href="/", type="button") Home
+            li.nav-item
+              a.nav-link(href="/lobby", type="button") Lobby (authenticated)

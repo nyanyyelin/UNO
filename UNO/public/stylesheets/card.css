@@ -1,0 +1,560 @@
+.card-R0 {
+	background-image: url("../images/cards.png");
+	background-position: 0px 0px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-R1 {
+	background-image: url("../images/cards.png");
+	background-position: -200px 0px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-R2 {
+	background-image: url("../images/cards.png");
+	background-position: -400px 0px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-R3 {
+	background-image: url("../images/cards.png");
+	background-position: -600px 0px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-R4 {
+	background-image: url("../images/cards.png");
+	background-position: -800px 0px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-R5 {
+	background-image: url("../images/cards.png");
+	background-position: -1000px 0px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-R6 {
+	background-image: url("../images/cards.png");
+	background-position: -1200px 0px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-R7 {
+	background-image: url("../images/cards.png");
+	background-position: -1400px 0px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-R8 {
+	background-image: url("../images/cards.png");
+	background-position: -1600px 0px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-R9 {
+	background-image: url("../images/cards.png");
+	background-position: -1800px 0px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-R10 {
+	background-image: url("../images/cards.png");
+	background-position: -2000px 0px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-R11 {
+	background-image: url("../images/cards.png");
+	background-position: -2200px 0px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-R12 {
+	background-image: url("../images/cards.png");
+	background-position: -2400px 0px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-B0 {
+	background-image: url("../images/cards.png");
+	background-position: 0px -285px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-B1 {
+	background-image: url("../images/cards.png");
+	background-position: -200px -285px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-B2 {
+	background-image: url("../images/cards.png");
+	background-position: -400px -285px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-B3 {
+	background-image: url("../images/cards.png");
+	background-position: -600px -285px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-B4 {
+	background-image: url("../images/cards.png");
+	background-position: -800px -285px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-B5 {
+	background-image: url("../images/cards.png");
+	background-position: -1000px -285px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-B6 {
+	background-image: url("../images/cards.png");
+	background-position: -1200px -285px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-B7 {
+	background-image: url("../images/cards.png");
+	background-position: -1400px -285px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-B8 {
+	background-image: url("../images/cards.png");
+	background-position: -1600px -285px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-B9 {
+	background-image: url("../images/cards.png");
+	background-position: -1800px -285px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-B10 {
+	background-image: url("../images/cards.png");
+	background-position: -2000px -285px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-B11 {
+	background-image: url("../images/cards.png");
+	background-position: -2200px -285px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-B12 {
+	background-image: url("../images/cards.png");
+	background-position: -2400px -285px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-Y0 {
+	background-image: url("../images/cards.png");
+	background-position: 0px -570px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-Y1 {
+	background-image: url("../images/cards.png");
+	background-position: -200px -570px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-Y2 {
+	background-image: url("../images/cards.png");
+	background-position: -400px -570px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-Y3 {
+	background-image: url("../images/cards.png");
+	background-position: -600px -570px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-Y4 {
+	background-image: url("../images/cards.png");
+	background-position: -800px -570px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-Y5 {
+	background-image: url("../images/cards.png");
+	background-position: -1000px -570px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-Y6 {
+	background-image: url("../images/cards.png");
+	background-position: -1200px -570px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-Y7 {
+	background-image: url("../images/cards.png");
+	background-position: -1400px -570px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-Y8 {
+	background-image: url("../images/cards.png");
+	background-position: -1600px -570px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-Y9 {
+	background-image: url("../images/cards.png");
+	background-position: -1800px -570px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-Y10 {
+	background-image: url("../images/cards.png");
+	background-position: -2000px -570px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-Y11 {
+	background-image: url("../images/cards.png");
+	background-position: -2200px -570px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-Y12 {
+	background-image: url("../images/cards.png");
+	background-position: -2400px -570px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-G0 {
+	background-image: url("../images/cards.png");
+	background-position: 0px -855px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-G1 {
+	background-image: url("../images/cards.png");
+	background-position: -200px -855px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-G2 {
+	background-image: url("../images/cards.png");
+	background-position: -400px -855px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-G3 {
+	background-image: url("../images/cards.png");
+	background-position: -600px -855px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-G4 {
+	background-image: url("../images/cards.png");
+	background-position: -800px -855px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-G5 {
+	background-image: url("../images/cards.png");
+	background-position: -1000px -855px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-G6 {
+	background-image: url("../images/cards.png");
+	background-position: -1200px -855px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-G7 {
+	background-image: url("../images/cards.png");
+	background-position: -1400px -855px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-G8 {
+	background-image: url("../images/cards.png");
+	background-position: -1600px -855px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-G9 {
+	background-image: url("../images/cards.png");
+	background-position: -1800px -855px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-G10 {
+	background-image: url("../images/cards.png");
+	background-position: -2000px -855px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-G11 {
+	background-image: url("../images/cards.png");
+	background-position: -2200px -855px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-G12 {
+	background-image: url("../images/cards.png");
+	background-position: -2400px -855px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-D0 {
+	background-image: url("../images/cards.png");
+	background-position: 0px -1140px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-D1 {
+	background-image: url("../images/cards.png");
+	background-position: -200px -1140px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-D2 {
+	background-image: url("../images/cards.png");
+	background-position: -400px -1140px;
+	background-size:auto;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}
+
+.card-back{
+	background-image: url("../images/card-back.png");
+	background-position: 0px 0px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	max-width: 172px;
+	min-width: 172px;
+	max-height: 256px;
+	min-height: 256px;
+}

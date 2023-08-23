@@ -1,0 +1,19 @@
+extends layout
+
+block styles
+  link(rel='stylesheet', href='/stylesheets/login.css')
+
+block content
+
+  div.container
+    div.row.mt-5
+      div.col-sm-12.col-md-6.offset-md-3
+        div.card
+          div.card-body
+            h2.card-title Logout
+            hr
+            div.alert.alert-danger(id="error-alert" role="alert" hidden) Invalid login credentials provided
+            form(id="login-form" action="/auth/logout" method="post")
+              div.form-group
+                label(for="usernameInput") Do you want to logout?
+              button.btn.btn-primary(id="login-btn" type="submit") Logout

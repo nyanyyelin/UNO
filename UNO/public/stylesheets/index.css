@@ -1,0 +1,57 @@
+.maindiv{
+    width: 60%;
+    right: 0;
+    position: absolute;
+}
+
+.button-container{
+    width: 60%;
+    
+    color: white;
+}
+
+.button-container-buttons{
+    width: 100%;
+    margin-top: 5%;
+    position: relative;
+}
+
+#GlobalChat{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-75%, -50%);
+    
+    color: white;
+}
+
+#createGame{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-20%, -50%);
+}
+
+#joinGame{
+    position: absolute;
+    top: 60%;
+    left: 90%;
+    transform: translate(-20%, -50%);
+
+}
+
+#enterGameId{
+    position: absolute;
+    top: 30%;
+    left: 90%;
+    transform: translate(-20%, -50%);
+    display: none;
+}
+
+#create-game{
+    display: none;
+}
+
+#join-game{
+    display: none;
+}

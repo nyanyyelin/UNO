@@ -1,0 +1,133 @@
+extends layout
+
+block styles
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+    link(rel='stylesheet', href='/stylesheets/game_room.css')
+    link(rel='stylesheet', href='/stylesheets/table.css')
+    link(rel='stylesheet', href='/stylesheets/card.css')
+    link(rel='stylesheet', href='/stylesheets/cardSize.css')
+
+    link(rel='stylesheet', href='/stylesheets/player1hand.css')
+    link(rel='stylesheet', href='/stylesheets/player2hand.css')
+    link(rel='stylesheet', href='/stylesheets/player3hand.css')
+    link(rel='stylesheet', href='/stylesheets/player4hand.css')
+
+block content
+  //-h1 Game page #{id} (#{title})
+
+  //-#waiting(class=`${ready ? "hidden" : ""}`) Waiting on users 
+  .container-fluid.d-flex.flex-column.h-100
+            .row.flex-fill.d-flex.flex-row
+              .game-container.col(id="parent")
+                .row.p-5(id="parent")
+                  //- Lobby Status Section
+                  .col-sm-12.col-md-9(id="parent")
+                    .card.bg-dark.text-white(id="parent")
+                      .card-body(id="lobby")
+                        .center
+                          .pile
+                            .card-back(id="cardpile1")
+                            .card-back(id="cardpile2")
+                            .card-back(id="cardpile3")
+                            .card-back(id="cardpile4")
+                          .last-played
+                            .card-B0(id="card1")
+                          .game-state
+                            .state  Players (#[span.currentPlayer #{playerSeat}])  is thinking
+                            .currentColor
+                              .text Current Color
+                              .div(id = "color")
+                        .player1 
+                          .player-cards(id="player1-cards")
+                            .card-back(id="card1")
+                            .card-back(id="card2")
+                            .card-back(id="card3")
+                            .card-back(id="card4")
+                            .card-back(id="card5")
+                            .card-back(id="card6")
+                            .card-back(id="card7")
+                            .card-back(id="card8")
+                            .card-back(id="card9")
+                            .card-back(id="card10")
+                            .card-back(id="card11")
+                            .card-back(id="card12")
+                            .card-back(id="card13")
+                            .card-back(id="card14")
+                            .card-back(id="card15")
+                          .player-icon(id="player-icon")
+                        .player2
+                          .player-cards(id="player2-cards")
+                            .card-back(id="card1")
+                            .card-back(id="card2")
+                            .card-back(id="card3")
+                            .card-back(id="card4")
+                            .card-back(id="card5")
+                            .card-back(id="card6")
+                            .card-back(id="card7")
+                            .card-back(id="card8")
+                            .card-back(id="card9")
+                            .card-back(id="card10")
+                            .card-back(id="card11")
+                            .card-back(id="card12")
+                            .card-back(id="card13")
+                            .card-back(id="card14")
+                            .card-back(id="card15")
+                          .player-icon(id="player-icon")
+                        .player3
+                          .player-cards(id="player3-cards")
+                            .card-back(id="card1")
+                            .card-back(id="card2")
+                            .card-back(id="card3")
+                            .card-back(id="card4")
+                            .card-back(id="card5")
+                            .card-back(id="card6")
+                            .card-back(id="card7")
+                            .card-back(id="card8")
+                            .card-back(id="card9")
+                            .card-back(id="card10")
+                            .card-back(id="card11")
+                            .card-back(id="card12")
+                            .card-back(id="card13")
+                            .card-back(id="card14")
+                            .card-back(id="card15")
+                          .player-icon(id="player-icon")
+                        .player4
+                          .player-icon(id="player-icon")
+                          .player-cards(id="player4-cards")
+                            .card-B0(id="card1")
+                            .card-G5(id="card2")
+                            .card-G8(id="card3")
+                            .card-G8(id="card4")
+                            .card-Y5(id="card5")
+                            .card-B8(id="card6")
+                            .card-B11(id="card7")
+                            .card-D1(id="card8")
+                            .card-Y5(id="card9")
+                            .card-R5(id="card10")
+                            .card-B12(id="card11")
+                            .card-G6(id="card12")
+                            .card-R0(id="card13")
+                            .card-G7(id="card14")
+                            .card-R8(id="card15")
+
+  .select-color
+      .select-red
+      .select-blue
+      .select-green
+      .select-yellow
+
+block footer
+  script.
+    window.onload = function(){
+      let i;
+      for(i = 0; i < seat; i++){
+        document.getElementsByClassName(`player${4-i}-ingame`).classList.remove("hidden");
+      }
+      let j;
+      for(i = 0; i < required_count; i++){
+        document.getElementsByClassName(`player${4-i}`).classList.remove("hidden");
+      }
+      
+    }
+  script(src="/javascripts/games/join.js")
+  script(src="/javascripts/game-management.js")

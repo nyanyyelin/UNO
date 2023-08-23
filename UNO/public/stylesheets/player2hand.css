@@ -1,0 +1,104 @@
+.player2 .player-cards #card1{
+    left: calc(50% - 140px);
+    top: 50%;
+    transform: translate(-50%, -35%) scale(0.3,0.3) rotate(180deg);
+    position:absolute;
+}
+
+.player2 .player-cards #card2{
+    left: calc(50% - 120px);
+    top: 50%;
+    transform: translate(-50%, -35%) scale(0.3,0.3) rotate(180deg);
+    position:absolute;
+}
+
+.player2 .player-cards #card3{
+    left: calc(50% - 100px);
+    top: 50%;
+    transform: translate(-50%, -35%) scale(0.3,0.3) rotate(180deg);
+    position:absolute;
+}
+
+.player2 .player-cards #card4{
+    left: calc(50% - 80px);
+    top: 50%;
+    transform: translate(-50%, -35%) scale(0.3,0.3) rotate(180deg);
+    position:absolute;
+}
+
+.player2 .player-cards #card5{
+    left: calc(50% - 60px);
+    top: 50%;
+    transform: translate(-50%, -35%) scale(0.3,0.3) rotate(180deg);
+    position:absolute;
+}
+
+.player2 .player-cards #card6{
+    left: calc(50% - 40px);
+    top: 50%;
+    transform: translate(-50%, -35%) scale(0.3,0.3) rotate(180deg);
+    position:absolute;
+}
+
+.player2 .player-cards #card7{
+    left: calc(50% - 20px);
+    top: 50%;
+    transform: translate(-50%, -35%) scale(0.3,0.3) rotate(180deg);
+    position:absolute;
+}
+
+.player2 .player-cards #card8{
+    left: calc(50% - 0px);
+    top: 50%;
+    transform: translate(-50%, -35%) scale(0.3,0.3) rotate(180deg);
+    position:absolute;
+}
+
+.player2 .player-cards #card9{
+    left: calc(50% + 20px);
+    top: 50%;
+    transform: translate(-50%, -35%) scale(0.3,0.3) rotate(180deg);
+    position:absolute;
+}
+
+.player2 .player-cards #card10{
+    left: calc(50% + 40px);
+    top: 50%;
+    transform: translate(-50%, -35%) scale(0.3,0.3) rotate(180deg);
+    position:absolute;
+}
+
+.player2 .player-cards #card11{
+    left: calc(50% + 60px);
+    top: 50%;
+    transform: translate(-50%, -35%) scale(0.3,0.3) rotate(180deg);
+    position:absolute;
+}
+
+.player2 .player-cards #card12{
+    left: calc(50% + 80px);
+    top: 50%;
+    transform: translate(-50%, -35%) scale(0.3,0.3) rotate(180deg);
+    position:absolute;
+}
+
+.player2 .player-cards #card13{
+    left: calc(50% + 100px);
+    top: 50%;
+    transform: translate(-50%, -35%) scale(0.3,0.3) rotate(180deg);
+    position:absolute;
+}
+
+.player2 .player-cards #card14{
+    left: calc(50% + 120px);
+    top: 50%;
+    transform: translate(-50%, -35%) scale(0.3,0.3) rotate(180deg);
+    position:absolute;
+}
+
+.player2 .player-cards #card15{
+    left: calc(50% + 140px);
+    top: 50%;
+    transform: translate(-50%, -35%) scale(0.3,0.3) rotate(180deg);
+    position:absolute;
+}

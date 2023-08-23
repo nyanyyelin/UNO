@@ -1,0 +1,27 @@
+extends layout
+
+block styles
+  link(rel='stylesheet', href='/stylesheets/login.css')
+
+block content
+
+  div.container
+    div.row.mt-5
+      div.col-sm-12.col-md-6.offset-md-3
+        div.card
+          div.card-body
+            h2.card-title Login
+            p.card-text Welcome
+            hr
+            div.alert.alert-danger(id="error-alert" role="alert" hidden) Invalid login credentials provided
+            form(id="login-form" action="/auth/login" method="post")
+              div.form-group
+                label(for="usernameInput") Username
+                input.form-control(required, id="usernameInput" type='text', placeholder="Enter username", name="username")
+              br
+              div.form-group
+                label(for="passwordInput") Password
+                input.form-control(required, id="passwordInput" type='password', placeholder="Password", name="password")
+              br
+              button.btn.btn-primary(id="login-btn" type="submit") Login
+              a.card-text.p-3(id="login-Signup" , href="/auth/signup") Don't have an account? Sign up

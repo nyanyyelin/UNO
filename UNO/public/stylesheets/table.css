@@ -1,0 +1,180 @@
+.player-icon{
+    width: 100px;
+    height: 100px;
+}
+
+.player1{
+    width: 20%;
+    height: 67%;
+    top: 3%;
+    left: 2%;
+
+    position:absolute;
+}
+
+.player1 #player-icon{
+    top: 50%;
+    left: calc(0% + 50px);
+    transform: translate(-50%, -50%);
+    background-color: black;
+    position:absolute
+}
+
+.player2{
+    width: 50%;
+    height: 25%;
+    top: 3%;
+    left: 25%;
+
+    position:absolute;
+}
+
+.player2 #player-icon{
+    top: calc(0% + 50px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    position:absolute
+}
+
+.player3{
+    width: 20%;
+    height: 67%;
+    top: 3%;
+    left: 78%;
+
+    position:absolute;
+}
+
+.player3 #player-icon{
+    top: 50%;
+    left: calc(100% - 50px);
+    transform: translate(-50%, -50%);
+    background-color: black;
+    position:absolute
+}
+
+.player4{
+    width: 96%;
+    height: 27%;
+    top: 72%;
+    left: 2%;
+
+    position:absolute
+}
+
+.player4 #player-icon{
+    top: 50%;
+    left: 7%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
+    position:absolute
+}
+
+.center{
+    height: 45%;
+    width : 55%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+.state{
+    font-size: 24px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+.currentColor{
+    display: none;
+    font-size: 8px;
+    top: 10%;
+    left: 80%;
+    position: absolute;
+}
+
+.currentColor #color{
+    height: 50px;
+    width: 50px;
+    min-height: 50px;
+    min-width: 50px;
+    background-color: blue;
+}
+
+.currentColor .ingame #color{
+    height: 50px;
+    width: 50px;
+    min-height: 50px;
+    min-width: 50px;
+    background-color: blue;
+}
+
+.center .pile #cardpile1{
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.center .pile #cardpile2{
+    top: calc(50% - 3px);
+    left: calc(20% - 3px);
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.center .pile #cardpile3{
+    top: calc(50% - 6px);
+    left: calc(20% - 6px);
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.center .pile #cardpile4{
+    top: calc(50% - 9px);
+    left: calc(20% - 9px);
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+.last-played{
+    width: 275px;
+    height: 180px;
+    top: 50%;
+    left: calc(40% + 275px);
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+
+/*
+    Card Area
+*/
+
+.player-cards{
+    width: 75%;
+    height: 90%;
+    top: 5%;
+    left: 20%;
+
+    display: inline-block;
+    position:absolute
+}
+
+#player1-cards{
+    left: 25%;
+}
+
+#player2-cards{
+    top: 10%;
+    left: 12.5%;
+}
+
+#player3-cards{
+    left: 0%;
+}
+
+
+/*
+    card area example
+*/

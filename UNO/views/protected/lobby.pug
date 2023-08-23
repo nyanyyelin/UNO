@@ -1,0 +1,94 @@
+extends layout
+
+block styles
+    link(rel='stylesheet', href='/stylesheets/chat.css')
+    link(rel='stylesheet', href='/stylesheets/index.css')
+    link()
+
+block content
+
+    head 
+        title= title 
+
+    .maindiv
+        .main-title Dashboard 
+    
+    if username
+    .button-container
+              .button-container-buttons(id="createGame")
+                  .create-game-btn.btn.bg-success(id="new-game-btn" onclick="showgame()") Create Game 
+              .button-container-buttons(id="joinGame")
+                  .join-game-btn.btn.bg-success(id="new-game-btn" onclick="showjoin()") Join Game 
+              .button-container-buttons(id="enterGameId")
+                  input(id="roomId", name="roomId" value="lobby")
+    
+
+    //- .col-sm-12.col-md-3(id="GlobalChat")
+    //-             .card.bg-dark.text-white 
+    //-                 .card-body
+    //-                     .chatroom-title-container
+    //-                         .chatroom-title Global Chat
+    //-                     .chatbox
+    //-                         .chat-message-container
+    //-                             .chat-message-user user1
+    //-                             .chat-message-time time1
+    //-                             .chat-message-text(id="text1") text1
+    //-                     .messagebox
+    //-                       form
+    //-                         .input-group
+    //-                             input(id="userInput" type="text").form-control
+    //-                             button.btn.bg-success(id="chatbox-btn" type="submit")
+    //-                                 i.fa.fa-paper-plane
+
+    div.container
+      div.row.mt-5(id="create-game")
+          div.col-sm-12.col-md-6.offset-md-3
+            div.card
+              div.card-body
+                form(id="login-form" action="/games/create" method="post")
+                  div.form-group
+                    label(for="usernameInput" fontcolor="white") New Game title
+                    input#title(type="text" name="title")
+                    br
+                    button.btn.btn-primary(id='create-game-button' type=submit) Create A New Game
+
+    
+      div.row.mt-5(id="join-game")
+          div.col-sm-12.col-md-6.offset-md-3
+            div.card
+              div.card-body
+                each game in games.joinable
+                  li
+                    span= game.title
+                    form(action=`/games/${game.id}/join` method="post" target="_blank")
+                      button.btn.btn-primary(id='create-game-button' type=submit) Join game
+        
+      //-.input-text enter room name(join)
+      //-.input-area
+        form(action=`/games/join` method="post" target="_blank")
+          label(for="title") Title (optional):
+          input#title(type="text" name="Room name")
+          button#create-game join game
+
+    //-.enter
+    //-  .input-text enter room name
+    //-  .input-area
+    //-      form(action=`/games/${game.id}/join` method="post" target="_blank")
+    //-        input#title(type="text" name="Room name")
+    //-        button Join game
+
+block footer 
+    script.
+      function showgame(){
+        document.getElementById("create-game").style.display = "block";
+        document.getElementById("join-game").style.display = "none";
+      }
+
+      function showjoin(){
+        document.getElementById("create-game").style.display = "none";
+        document.getElementById("join-game").style.display = "block";
+      }
+    
+    script(src="/javascripts/game-management.js")
+
+  

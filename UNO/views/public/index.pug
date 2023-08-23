@@ -1,0 +1,53 @@
+extends layout
+
+block styles
+    link(rel='stylesheet', href='/stylesheets/chat.css')
+    link(rel='stylesheet', href='/stylesheets/index.css')
+    link(rel='stylesheet', href='/stylesheets/game_room.css')
+
+block content
+
+    head 
+        title= title 
+
+    .maindiv
+        .main-title Dashboard 
+
+    .enter(id="create-game")
+      .input-text enter room name
+      .input-area
+        form(action="/games/create" method="post")
+          label(for="title") Title (optional):
+          input#title(type="text" name="title")
+          button#create-game Create a new game
+
+    .enter(id="join-game")
+      .input-text enter room name
+      .input-area
+        form(action=`/games/join` method="post" target="_blank")
+          label(for="title") Title (optional):
+          input#title(type="text" name="Room name" onporpertychange="update-game-id(event)")
+          button#create-game join game
+
+
+    //-.enter
+    //-  .input-text enter room name
+    //-  .input-area
+    //-      form(action=`/games/${game.id}/join` method="post" target="_blank")
+    //-        input#title(type="text" name="Room name")
+    //-        button Join game
+
+block footer 
+  script.
+    function show-create-game(){
+      document.getElementById("create-game").style.display = "block";
+      document.getElementById("join-game").style.display = "none";
+    }
+    
+    script(src="/javascripts/chat.js")
+    script(src="/javascripts/game-management.js")
+  //- script(src="/socket.io/socket.io.js")
+  script(src="/javascripts/chat.js")
+  script(src="/javascripts/game-management.js")
+
+  

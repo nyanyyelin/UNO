@@ -1,0 +1,20 @@
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    color: white;
+}
+
+.card-body{
+    background-color: #212529;
+    border-color: rgb(69,68,68);
+    border: 5px;
+}
+
+#login-Signup{
+    bottom: 3%;
+    right: 2%;
+    position: absolute;
+}

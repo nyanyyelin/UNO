@@ -1,0 +1,139 @@
+.player4 .player-cards #card1{
+    left: calc(50% - 100px);
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.7,0.7);
+    position:absolute;
+}
+
+.player4 .player-cards #card2{
+    left: calc(50% - 50px);
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.7,0.7);
+    position:absolute
+}
+
+.player4 .player-cards #card3{
+    left: calc(50%);
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.7,0.7);
+    position:absolute
+}
+
+.player4 .player-cards #card4{
+    left: calc(50% + 50px);
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.7,0.7);
+    position:absolute
+}
+
+.player4 .player-cards #card5{
+    left: calc(50% + 100px);
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.7,0.7);
+    position:absolute
+}
+
+.player4 .player-cards #card1{
+    left: calc(50% - 350px);
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.7,0.7);
+    position:absolute;
+}
+
+.player4 .player-cards #card2{
+    left: calc(50% - 300px);
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.7,0.7);
+    position:absolute;
+}
+
+.player4 .player-cards #card3{
+    left: calc(50% - 250px);
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.7,0.7);
+    position:absolute;
+}
+
+.player4 .player-cards #card4{
+    left: calc(50% - 200px);
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.7,0.7);
+    position:absolute;
+}
+
+.player4 .player-cards #card5{
+    left: calc(50% - 150px);
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.7,0.7);
+    position:absolute;
+}
+
+.player4 .player-cards #card6{
+    left: calc(50% - 100px);
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.7,0.7);
+    position:absolute;
+}
+
+.player4 .player-cards #card7{
+    left: calc(50% - 50px);
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.7,0.7);
+    position:absolute;
+}
+
+.player4 .player-cards #card8{
+    left: calc(50% - 0px);
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.7,0.7);
+    position:absolute;
+}
+
+.player4 .player-cards #card9{
+    left: calc(50% + 50px);
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.7,0.7);
+    position:absolute;
+}
+
+.player4 .player-cards #card10{
+    left: calc(50% + 100px);
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.7,0.7);
+    position:absolute;
+}
+
+.player4 .player-cards #card11{
+    left: calc(50% + 150px);
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.7,0.7);
+    position:absolute;
+}
+
+.player4 .player-cards #card12{
+    left: calc(50% + 200px);
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.7,0.7);
+    position:absolute;
+}
+
+.player4 .player-cards #card13{
+    left: calc(50% + 250px);
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.7,0.7);
+    position:absolute;
+}
+
+.player4 .player-cards #card14{
+    left: calc(50% + 300px);
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.7,0.7);
+    position:absolute;
+}
+
+.player4 .player-cards #card15{
+    left: calc(50% + 350px);
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.7,0.7);
+    position:absolute;
+}

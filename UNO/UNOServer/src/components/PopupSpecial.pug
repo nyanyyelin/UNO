@@ -1,0 +1,31 @@
+<template>
+   
+</template>
+
+<script>
+
+    import Popup from "./Popup"
+    import CardTemplate from "../components/CardTemplate"
+
+    export default {
+        name: "PopupSpecial",
+        props:['clickHandler', 'card'],
+        components: {Popup, CardTemplate},
+        methods:{
+            getNumber:function(){
+                return this.card.type.charAt(1);
+            },
+            click:function(cardType){
+                this.clickHandler(this.card.id, cardType);
+            }
+        }
+    }
+</script>
+
+<style scoped>
+    .card-float{
+        display: inline-block;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+</style>
